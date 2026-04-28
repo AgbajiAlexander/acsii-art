@@ -13,7 +13,7 @@ func main() {
 	}
 
 	input := os.Args[1]
-	fmt.Println(AsciiArt(input))
+	fmt.Println(AsciiArt(string(input)))
 }
 
 func AsciiArt(input string) string {
