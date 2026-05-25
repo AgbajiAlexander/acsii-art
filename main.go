@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// funtion that takes not more than 2 argument
 func main() {
 	if len(os.Args) != 2 {
 		fmt.Println("Enter only 2 arguments!")
